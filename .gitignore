@@ -1,0 +1,80 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Playwright
+# =========================
+# Playwright reports and artifacts
+playwright-report/
+test-results/
+blob-report/
+
+# Screenshots, videos, traces
+**/screenshots/
+**/videos/
+**/traces/
+
+# =========================
+# Pytest
+# =========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# =========================
+# OS
+# =========================
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.temp
+.cache/
+# Python cache
+__pycache__/
+*.pyc
+
+# Pip bootstrap
+get-pip.py
